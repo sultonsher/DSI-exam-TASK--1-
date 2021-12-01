@@ -45,6 +45,21 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+
+.navbar li:hover {
+    color: #EE4248;
+}
+
+.navbar li:active {
+    opacity: 0.6;
+}
+
+.navbar a:hover {
+    color: #EE4248;
+}
+.navbar a:active {
+    opacity: 0.6;
+}
 /* ICONS */
 
 .header-icon{
@@ -138,8 +153,17 @@ body {
     font-weight: 400;
     line-height: 29px;
     text-align: left;
-
 }
+
+.button:hover {
+    background-color: #fff;
+    color: #ee4248;
+}
+
+.button:active {
+    opacity: 0.6;
+}
+
 .main-content2__own{
     display: flex;
     align-items: center;
